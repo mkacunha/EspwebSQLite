@@ -17,6 +17,10 @@ public class Aluno {
         this.cidade = cidade;
     }
 
+    public Aluno(){
+
+    }
+
     public Integer getId() {
         return id;
     }

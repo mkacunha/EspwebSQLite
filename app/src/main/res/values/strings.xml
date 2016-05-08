@@ -1,5 +1,6 @@
 <resources>
-    <string name="app_name">EspewebSQLite</string>
+    <string name="app_name">ESPWEB - UEM</string>
     <string name="action_settings">Settings</string>
     <string name="title_activity_alunos">AlunosActivity</string>
+    <string name="title_activity_main2">Main2Activity</string>
 </resources>
