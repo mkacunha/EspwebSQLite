@@ -13,11 +13,11 @@
     tools:showIn="@layout/activity_main">
 
     <LinearLayout
-        android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true">
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical">
 
         <TextView
             android:layout_width="wrap_content"
@@ -25,9 +25,11 @@
             android:text="Curso" />
 
         <EditText
+            android:id="@+id/edCurso"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/edCurso" />
+            android:imeOptions="actionDone"
+            android:inputType="textCapSentences" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -35,9 +37,11 @@
             android:text="Nome do aluno" />
 
         <EditText
+            android:id="@+id/edNome"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/edNome" />
+            android:imeOptions="actionDone"
+            android:inputType="textCapSentences" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -45,13 +49,15 @@
             android:text="Cidade" />
 
         <EditText
+            android:id="@+id/edCidade"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/edCidade" />
+            android:imeOptions="actionDone"
+            android:inputType="textCapSentences" />
 
         <ListView
+            android:id="@+id/listView"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/listView" />
+            android:layout_height="wrap_content" />
     </LinearLayout>
 </RelativeLayout>
